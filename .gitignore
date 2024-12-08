@@ -1,0 +1,28 @@
+# Directoare și fișiere ale mediului virtual
+venv/
+ENV/
+
+# Fișiere de configurare locale
+*.env
+instance/
+
+# Fișiere Python compilate
+*.pyc
+*.pyo
+__pycache__/
+
+# Fișiere de log
+*.log
+
+# Fișiere generate automat de sistem
+.DS_Store
+Thumbs.db
+
+# Fișiere și directoare specifice IDE-urilor
+.vscode/
+.idea/
+*.swp
+
+# Fișiere de cache
+*.cache
+venv/bin/activate.csh
